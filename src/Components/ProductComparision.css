@@ -1,0 +1,30 @@
+*{
+    background-color: aqua;
+}
+
+
+.productsDisplay{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    display: flex;
+    justify-content:center;
+}
+
+.productsDisplay .product-list{
+    display: flex;
+    justify-content: space-around;
+    /* justify-items: center; */
+}
+
+.comparision-table{
+    display: flex;
+    justify-content: center;
+}
+
+.comparision-table .ptable{
+    display: flex;
+    justify-content: space-around;
+}
